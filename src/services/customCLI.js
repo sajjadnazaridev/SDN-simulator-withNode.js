@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const validationIP = require('../utils/validationIP');
 
 async function customCLI() {
     console.log('Welcome to the ICMP Ping Simulator (Windows version).');
