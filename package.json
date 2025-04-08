@@ -1,0 +1,29 @@
+{
+  "name": "sdn-simulator-withnode",
+  "version": "1.0.0",
+  "description": "Implementing an SDN simulator using Node.js that receives an IP address and, after checking the address, displays a simulated ICMP Request and ICMP Reply to the user",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "test/app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajjadnazaridev/SDN-simulator-withNode.js.git"
+  },
+  "keywords": [],
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "chai": "^4.0.0"
+  },
+  "author": "Seyed Sajjad Nazari",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sajjadnazaridev/SDN-simulator-withNode.js/issues"
+  },
+  "homepage": "https://github.com/sajjadnazaridev/SDN-simulator-withNode.js#readme"
+}
