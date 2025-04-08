@@ -1,7 +1,5 @@
 const customCLI = require('./src/services/customCLI');
 
-const cli = customCLI();
-
 async function main() {
     try {
 
