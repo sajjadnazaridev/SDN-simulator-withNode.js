@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const validationIP = require('../utils/validationIP');
+const simulatePing = require('./simulatePing');
 
 async function customCLI() {
     console.log('Welcome to the ICMP Ping Simulator (Windows version).');
@@ -29,7 +30,7 @@ async function customCLI() {
 
         if (reAsk.repeat) {
             console.log('Restarting the ICMP Ping Simulator...');
-            await main();
+            await customCLI();
         }
         else {
             console.log('Thank you for using the ICMP Ping Simulator!');
